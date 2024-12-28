@@ -786,4 +786,26 @@ margin-bottom: 50px
       flex: 1 1 100%; /* 1 item per row on very small screens */
     }
   }
+  /* General Fix for All Screens */
+body {
+    padding-top: 70px; /* Default padding for fixed navbar */
+  }
+  
+  /* Adjust for Mobile Screens */
+  @media (max-width: 768px) {
+    body {
+      padding-top: 100px; /* Increased padding for taller mobile navbar */
+    }
+  }
+  
+  .video-container {
+    margin-top: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .video-container video {
+    width: 100%;
+    height: auto;
+  }
   
