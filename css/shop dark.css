@@ -808,4 +808,10 @@ body {
     width: 100%;
     height: auto;
   }
-  
+  .logo {
+    width: 150px; /* Set desired size */
+    height: 150px; /* Equal to width for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures image fits the circular container */
+    border: 2px solid #333; /* Optional: Add a border */
+}
